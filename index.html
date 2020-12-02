@@ -12,56 +12,103 @@
 			height:100%;
 			background-color:#21A3E4;
 		}
-		.main{
-			text-align: center;
-			margin: 0px auto;
-			height:95%;
-			width:500px;
-			background-color:#FFF;
+		h1{
+			font-family: Verdana;
+			padding:3px;
 		}
 		.easy{
 			color:#5ACE28;
 		}
 		.medium{
-			color:#F2EB28;
+			color:#FFD700;
 		}
 		.hard{
 			color:#F23737;
+		}
+		.main{
+			text-align: center;
+			margin: 0px auto;
+			padding:0px;
+			height:95%;
+			width:70%;
+			background-color:#E6E6FA;
+		}
+		.title{
+			position: relative;
+			background-color:pink;
+			width:100%;
+			height:76px;
+			padding:0px;
+			margin:0px;
+		}
+		.title h1{
+			position: absolute;
+			top:-5px;
+			left:50%;
+			margin-right: -50%;
+			transform: translate(-50%, 0px);
+			text-align:center;
+			width:12em;
+		}
+		a{
+			text-decoration:none;
 		}
 		table{
 			border:1px solid #000;
 			width:80%;
 		}
-		a{
-			text-decoration:none;
-		}
 		th{
 			background: #DCDCDC;
 		}
-		td.songname{
-			background-color:#63F2DA;
+		td{
+			height:30px;
 		}
-		td.songname:hover{
+		td:nth-child(1){
+			background-color:#63F2DA;
+			width: 40%;
+		}
+		td:nth-child(1):hover{
 			background-color:#BFFFF5;
 			cursor:pointer;
+		}
+		td:nth-child(2){
+			background-color:#EE82EE;
+			width:21%;
+		}
+		td:nth-child(2):hover{
+			background-color:#EFABEF;
+			cursor:pointer;
+		}
+		td:nth-child(3){
+			background-color:#7FFF00;
+			width:13%;
+		}
+		td:nth-child(4){
+			background-color:#FFD700;
+			width:13%;
+		}
+		td:nth-child(5){
+			background-color:#DC143C;
+			width:13%;
 		}
 	</style>
 </head>
 
 <body>
+	<div class="title"><h1>AC Sparebeat Room</h1></div>
 	<div class="main">
 		<h1 class="easy">Category Easy</h1>
 		There's no song in this category now!
 		<h1 class="medium">Category Medium</h1>
 		<table align="center">
-			<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
-			<tr><td class="songname"><a href="失礼しますが、RIP♡  (Ðáren Remix)">失礼しますが、RIP♡  (Ðáren Remix)</a></td><td> -</td><td> -</td><td>13</td></tr>
-			<tr><td class="songname"><a href="MARENOL">MARENOL</a></td><td> -</td><td> -</td><td>13</td></tr>
+			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+			<tr><td><a href="失礼しますが、RIP♡  (Ðáren Remix)">失礼しますが、RIP♡  (Ðáren Remix)</a></td><td>Ðáren</td><td> -</td><td> -</td><td>13</td></tr>
+			<tr><td><a href="MARENOL">MARENOL</a></td><td>LeaF</td><td> -</td><td> -</td><td>13</td></tr>
 		</table>
 		<h1 class="hard">Category Hard</h1>
 		<table align="center">
-			<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
-			<tr><td class="songname"><a href="Glorious Crown">Glorious Crown</a></td><td> -</td><td> -</td><td>17+</td></tr>
+			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+			<tr><td><a href="Glorious Crown">Glorious Crown</a></td><td>xi</td><td> -</td><td> -</td><td>17+</td></tr>
 		</table>
 	</div>
 
