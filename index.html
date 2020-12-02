@@ -4,22 +4,51 @@
 <head>
 	<meta charset="UTF-8">
 	<title>AC Sparebeat room</title>
+	<style>
+		html{
+			height:100%;
+		}
+		body{
+			height:100%;
+			background-color:#21A3E4;
+		}
+		.main{
+			text-align: center;
+			margin: 0px auto;
+			height:95%;
+			width:500px;
+			background-color:#FFF;
+		}
+		table{
+			border:1px solid #000;
+			width:80%;
+		}
+		td.songname{
+			background-color:#63F2DA;
+		}
+		td.songname:hover{
+			background-color:#BFFFF5;
+			cursor:pointer;
+		}
+	</style>
 </head>
 
 <body>
-	<h1>Category Easy</h1>
-	There's no song in this category now!
-	<h1>Category Medium</h1>
-	<table style="border:1px solid #000;">
-		<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
-		<tr><td><a href="失礼しますが、RIP♡  (Ðáren Remix)">失礼しますが、RIP♡  (Ðáren Remix)</a></td><td> -</td><td> -</td><td>14</td></tr>
-		<tr><td><a href="MARENOL">MARENOL</a></td><td> -</td><td> -</td><td>13</td></tr>
-	</table>
-	<h1>Category Hard</h1>
-	<table style="border:1px solid #000;">
-		<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
-		<tr><td><a href="Glorious Crown">Glorious Crown</a></td><td> -</td><td> -</td><td>17+</td></tr>
-	</table>
+	<div class="main">
+		<h1>Category Easy</h1>
+		There's no song in this category now!
+		<h1>Category Medium</h1>
+		<table align="center">
+			<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+			<tr><td class="songname"><a href="失礼しますが、RIP♡  (Ðáren Remix)">失礼しますが、RIP♡  (Ðáren Remix)</a></td><td> -</td><td> -</td><td>13</td></tr>
+			<tr><td class="songname"><a href="MARENOL">MARENOL</a></td><td> -</td><td> -</td><td>13</td></tr>
+		</table>
+		<h1>Category Hard</h1>
+		<table align="center">
+			<tr><th>Title</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+			<tr><td class="songname"><a href="Glorious Crown">Glorious Crown</a></td><td> -</td><td> -</td><td>17+</td></tr>
+		</table>
+	</div>
 
 </body>
 
