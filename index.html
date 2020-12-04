@@ -29,6 +29,9 @@
 		.hard{
 			color:#F23737;
 		}
+		.boss{
+			color:#800080;
+		}
 		.main{
 			text-align: center;
 			margin: 0px auto;
@@ -36,6 +39,9 @@
 			height:95%;
 			width:70%;
 			background-color:#E6E6FA;
+		}
+		.in{
+			display:none;
 		}
 		.title{
 			position: relative;
@@ -72,7 +78,6 @@
 		}
 		td:nth-child(1){
 			background-color:#63F2DA;
-			width: 40%;
 		}
 		td:nth-child(1):hover{
 			background-color:#BFFFF5;
@@ -80,7 +85,6 @@
 		}
 		td:nth-child(2){
 			background-color:#EE82EE;
-			width:21%;
 		}
 		td:nth-child(2):hover{
 			background-color:#EFABEF;
@@ -88,14 +92,26 @@
 		}
 		td:nth-child(3){
 			background-color:#7FFF00;
-			width:13%;
 		}
 		td:nth-child(4){
 			background-color:#FFD700;
-			width:13%;
 		}
 		td:nth-child(5){
 			background-color:#DC143C;
+		}
+		th:nth-child(1){
+			width: 40%;
+		}
+		th:nth-child(2){
+			width:21%;
+		}
+		th:nth-child(3){
+			width:13%;
+		}
+		th:nth-child(4){
+			width:13%;
+		}
+		th:nth-child(5){
 			width:13%;
 		}
 	</style>
@@ -105,17 +121,24 @@
 	<div class="title"><h1>AC Sparebeat Room</h1></div>
 	<div class="main">
 		<h1 class="easy">Category Easy</h1>
-		There's no song in this category now!
+		<table align="center">
+			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+		</table>
 		<h1 class="medium">Category Medium</h1>
 		<table align="center">
 			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
 			<tr><td><a href="失礼しますが、RIP♡  (Ðáren Remix)">失礼しますが、RIP♡  (Ðáren Remix)</a></td><td>Ðáren</td><td> -</td><td> -</td><td>13</td></tr>
-			<tr><td><a href="MARENOL">MARENOL</a></td><td>LeaF</td><td> -</td><td> -</td><td>14</td></tr>
+			<tr><td><a href="MARENOL">MARENOL</a></td><td>LeaF</td><td> -</td><td> -</td><td>13</td></tr>
 		</table>
 		<h1 class="hard">Category Hard</h1>
 		<table align="center">
 			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
 			<tr><td><a href="Glorious Crown">Glorious Crown</a></td><td>xi</td><td> -</td><td> -</td><td>17+</td></tr>
+		</table>
+		<h1 class="boss">Boss Fight</h1>
+		<table align="center">
+			<tr><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+			<tr class="in"><td><a href="【裏】Glorious Crown">【裏】Glorious Crown</a></td><td>xi</td><td> -</td><td> -</td><td>-1</td></tr>
 		</table>
 	</div>
 
