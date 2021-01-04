@@ -53,6 +53,12 @@ h1{
   text-align:center;
   width:12em;
 }
+.main h1 {
+  cursor: pointer;
+}
+.main h1 span {
+  font-size: 20px;
+}
 a, a:visited{
   color: #00F;
   text-decoration:none;
