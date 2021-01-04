@@ -1,6 +1,11 @@
 let i = 0;
 
-$(document).ready(function(){
+const switchArrow = element => {
+  element.text() === "▼" ? element.text("▲")
+                         : element.text("▼");
+}
+
+$(document).ready(() => {
   $(".main h1 span").text("▼");
 
   $("thead").click(function() {
@@ -9,8 +14,7 @@ $(document).ready(function(){
 
   $(".main h1").click(function() {
     $(this).next("table").animate({height: 'toggle', opacity: 'toggle'});
-    $(this).children(".arrow").text() === "▼" ? $(this).children(".arrow").text("▲")
-                                              : $(this).children(".arrow").text("▼");
+    switchArrow($(this).children(".arrow"));
   });
 
   $(".title").dblclick(function() {
