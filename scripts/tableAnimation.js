@@ -14,7 +14,6 @@ $(document).ready(function(){
   });
 
   $(".title").dblclick(function() {
-    i >= 10 ? alert('太閒喔') : $(".main").animate({height: 'toggle', opacity: 'toggle'});
-    i++;
+    i++ >= 10 ? alert('太閒喔') : $(".main").animate({height: 'toggle', opacity: 'toggle'});
   });
 });
