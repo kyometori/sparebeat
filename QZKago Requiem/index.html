@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>QZKago Requiem</title>
+	<style>
+		#text_center {
+			text-align: center;
+		}
+
+		.sb {
+			text-align: center;
+		}
+
+	</style>
+	<script src="https://sparebeat.com/embed/client.js"></script>
+	<script>
+		Sparebeat.autoload();
+		window.addEventListener('load', function () {
+			document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
+		});
+	</script>
+</head>
+
+<body>
+	<div class="sb">
+		<iframe id="sparebeat" width="960" src="https://sparebeat.com/embed/" frameborder="0"></iframe>
+	</div>
+
+
+</body>
+
+</html>
