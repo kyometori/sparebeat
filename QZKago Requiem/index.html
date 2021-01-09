@@ -2,32 +2,26 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<title>QZKago Requiem</title>
-	<style>
-		#text_center {
-			text-align: center;
-		}
-
-		.sb {
-			text-align: center;
-		}
-
-	</style>
+	<meta charset="UTF-8" />
+	<meta name="author" content="AC0xRPFS001" />
+	<meta name="description" content="AC Sparebeat Room" />
+	<meta name="keywords" content="AC AC0xRPFS001 Sparebeat QZKago Requiem" />
+	<title>QZKago Requiem - AC Sparebeat room</title>
+	<link rel="stylesheet" type="text/css" href="../play/style.css" />
 	<script src="https://sparebeat.com/embed/client.js"></script>
-	<script>
-		Sparebeat.autoload();
-		window.addEventListener('load', function () {
-			document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
-		});
-	</script>
+	<script src="../play/script.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-	<div class="sb">
-		<iframe id="sparebeat" width="960" src="https://sparebeat.com/embed/" frameborder="0"></iframe>
-	</div>
+	<div class="title"><h1>AC Sparebeat Room</h1></div>
 
+	<div class="main">
+		<div class="sb">
+			<iframe id="sparebeat" src="https://sparebeat.com/embed/" frameborder="0"></iframe>
+		</div>
+		<object id="timeline" width="960" height="400"></object>
+	</div>
 
 </body>
 
