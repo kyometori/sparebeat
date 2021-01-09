@@ -13,11 +13,18 @@ h1{
   font-family: Verdana;
   padding:3px;
 }
+a, a:visited{
+  color: #00F;
+  text-decoration:none;
+}
+a:active{
+  color:#32CD32;
+}
 .main{
   text-align: center;
   margin: 0px auto;
   padding:0px;
-  height:95%;
+  height:100%;
   width:80%;
   background-color:#E6E6FA;
 }
@@ -41,10 +48,14 @@ h1{
 #text_center {
   text-align: center;
 }
-#sparebeat {
+iframe {
   width: 85%;
   margin: 0px auto;
   padding-top: 3em;
+  display: block;
+}
+#timeline {
+  height: 1320px;
 }
 .sb {
   text-align: center;
