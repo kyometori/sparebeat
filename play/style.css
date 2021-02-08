@@ -6,8 +6,10 @@ body{
   -moz-user-select:none;
   -o-user-select:none;
   user-select:none;
+  position: relative;
   height:100%;
   background-color:#21A3E4;
+  font-family: 'Helvetica', 'Arial';
 }
 h1{
   font-family: Verdana;
