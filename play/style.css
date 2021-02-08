@@ -25,10 +25,10 @@ a:active{
   margin: 0px auto;
   padding:0px;
   height:100%;
-  width:80%;
+  width:85%;
   background-color:#E6E6FA;
 }
-.title{
+#title{
   position: relative;
   background-color:pink;
   width:100%;
@@ -36,7 +36,37 @@ a:active{
   padding:0px;
   margin:0px;
 }
-.title h1{
+.nav{
+  height: 76px;
+  width: 100%;
+  text-align: center;
+}
+.nav ul{
+  margin: 0px auto;
+  padding-top: 15px;
+  padding-right: 40px;
+  border-top: black 1px solid;
+  display: inline-block;
+}
+.nav ul li{
+  cursor: pointer;
+  border: black 2px solid;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  margin: auto 0px;
+  width: 150px;
+  background-color: #247CB6;
+}
+.nav ul li:hover{
+  background-color: #44B5FF;
+}
+.nav ul a li{
+  color: black;
+}
+
+#title h1{
   position: absolute;
   top:-5px;
   left:50%;
@@ -49,13 +79,9 @@ a:active{
   text-align: center;
 }
 iframe {
-  width: 85%;
   margin: 0px auto;
   padding-top: 3em;
   display: block;
-}
-#timeline {
-  height: 1320px;
 }
 .sb {
   text-align: center;

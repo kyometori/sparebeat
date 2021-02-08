@@ -34,7 +34,7 @@ h1{
   margin: 0px auto;
   padding: 0px;
   height: 130%;
-  width: 70%;
+  width: 85%;
   background-color: #E6E6FA;
 }
 .main h1{
@@ -181,7 +181,7 @@ table.cltable td ul li, ul ul li{
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 72%;
+  width: 60%;
 }
 .title+div span{
   font-size: 18px;
