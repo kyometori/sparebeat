@@ -187,13 +187,6 @@ table.cltable td ul li, ul ul li{
   font-size: 18px;
 }
 
-span blockquote{
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -o-user-select: text;
-  user-select: text;
-}
-
 h2 {
   margin-top: 25px;
   margin-bottom: 5px;
