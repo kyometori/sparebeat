@@ -1,116 +1,238 @@
 html{
-  height:100%;
+  height: 100%;
 }
 body{
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -o-user-select:none;
-  user-select:none;
-  height:100%;
-  background-color:#21A3E4;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
+  height: 100%;
+  background-color: #21A3E4;
 }
+
+
 h1{
   font-family: Verdana;
-  padding:3px;
 }
 .easy{
-  color:#5ACE28;
+  color: #5ACE28;
 }
 .medium{
-  color:#E6C800;
+  color: #E6C800;
 }
 .hard{
-  color:#F23737;
+  color: #F23737;
 }
 .boss{
-  color:#800080;
+  color: #800080;
 }
+
+
 .main{
   text-align: center;
   margin: 0px auto;
-  padding:0px;
-  height:95%;
-  width:70%;
-  background-color:#E6E6FA;
+  padding: 0px;
+  height: 130%;
+  width: 70%;
+  background-color: #E6E6FA;
 }
-.in{
-  display:none;
-}
-.title{
-  position: relative;
-  background-color:pink;
-  width:100%;
-  height:76px;
-  padding:0px;
-  margin:0px;
-}
-.title h1{
-  position: absolute;
-  top:-5px;
-  left:50%;
-  margin-right: -50%;
-  transform: translate(-50%, 0px);
-  text-align:center;
-  width:12em;
-}
-.main h1 {
-  cursor: pointer;
+.main h1{
+  padding-top: 18px;
+  padding-bottom: 10px;
 }
 .main h1 span {
   font-size: 20px;
 }
+
+
+.nav{
+  height: 76px;
+  width: 100%;
+  text-align: center;
+}
+.nav ul{
+  margin: 0px auto;
+  padding-top: 15px;
+  padding-right: 40px;
+  border-top: black 1px solid;
+  display: inline-block;
+}
+.nav ul li{
+  cursor: pointer;
+  border: black 2px solid;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  margin: auto 0px;
+  width: 150px;
+  background-color: #247CB6;
+}
+.nav ul li:hover{
+  background-color: #44B5FF;
+}
+.nav ul a li{
+  color: black;
+}
+
+
+.in, .about, .catein, .cl{
+  display: none;
+}
+
+
+#title{
+  background-color: pink;
+  width: 100%;
+  height: 76px;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+#title h1{
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
+
+
 a, a:visited{
   color: #00F;
-  text-decoration:none;
+  text-decoration: none;
 }
 a:active{
-  color:#32CD32;
+  color: #32CD32;
 }
+
+
 table{
   border:1px solid #000;
-  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 th{
   background: #DCDCDC;
 }
 td{
-  height:30px;
+  height: 30px;
 }
 td:nth-child(1){
-  background-color:#63F2DA;
+  background-color: #63F2DA;
 }
 td:nth-child(1):hover{
-  background-color:#BFFFF5;
-  cursor:pointer;
+  background-color: #BFFFF5;
+  cursor: pointer;
 }
 td:nth-child(2){
-  background-color:#EE82EE;
+  background-color: #EE82EE;
 }
 td:nth-child(2):hover{
-  background-color:#EFABEF;
-  cursor:pointer;
+  background-color: #EFABEF;
+  cursor: pointer;
 }
 td:nth-child(3){
-  background-color:#7FFF00;
+  background-color: #7FFF00;
 }
 td:nth-child(4){
-  background-color:#FFD700;
+  background-color: #FFD700;
 }
 td:nth-child(5){
-  background-color:#DC143C;
+  background-color: #DC143C;
 }
 th:nth-child(1){
   width: 40%;
 }
 th:nth-child(2){
-  width:21%;
+  width: 21%;
 }
 th:nth-child(3){
-  width:13%;
+  width: 13%;
 }
 th:nth-child(4){
-  width:13%;
+  width: 13%;
 }
 th:nth-child(5){
-  width:13%;
+  width: 13%;
+}
+
+
+.title{
+  color: #175A9E;
+}
+table.cltable{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table.cltable td, table.cltable td:hover{
+  background-color: #CEE0E9;
+  cursor: default;
+  text-align: left;
+  padding: 10px
+}
+table.cltable td ul li, ul ul li{
+  padding: 5px;
+}
+
+
+.title+div{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 72%;
+}
+.title+div span{
+  font-size: 18px;
+}
+
+span blockquote{
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
