@@ -26,7 +26,10 @@ $(document).ready(() => {
   const about = $(".about").html();
   const catein = $(".catein").html();
   const cl = $(".cl").html();
+  $("#title").hide(0);
   $("#title h1").hide(0);
+  $(".nav").hide(0);
+  $(".main").hide(0);
 
   setTimeout(() => {
     $("#title").animate({opacity: 'show'}, 200);

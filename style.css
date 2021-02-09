@@ -31,7 +31,6 @@ h1{
 
 
 .main{
-  display: none;
   text-align: center;
   margin: 0px auto;
   padding: 0px;
@@ -46,7 +45,6 @@ h1{
 
 
 .nav{
-  display: none;
   height: 76px;
   width: 100%;
   text-align: center;
@@ -167,11 +165,14 @@ table.cltable{
   margin-right: auto;
   width: 50%;
 }
-table.cltable td, table.cltable td:hover{
+table.cltable td{
   background-color: #CEE0E9;
-  cursor: default;
   text-align: left;
   padding: 10px
+}
+table.cltable td:hover{
+  background-color: #E7EBEE;
+  cursor: default;
 }
 table.cltable td ul li, ul ul li{
   padding: 5px;
