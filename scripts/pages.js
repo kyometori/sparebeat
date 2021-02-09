@@ -26,6 +26,23 @@ $(document).ready(() => {
   const about = $(".about").html();
   const catein = $(".catein").html();
   const cl = $(".cl").html();
+  $("#title h1").hide(0);
+
+  setTimeout(() => {
+    $("#title").animate({opacity: 'show'}, 200);
+  }, 300);
+
+  setTimeout(() => {
+    $(".nav").animate({height: 'show', opacity: 'show'}, 500);
+  }, 800);
+
+  setTimeout(() => {
+    $(".main").animate({opacity: 'show'}, 500);
+  }, 1500);
+
+  setTimeout(() => {
+    $("#title h1").animate({opacity: 'show'}, 700);
+  }, 2100);
 
   $(this).remove(".about");
   $("#mp").click(function() {
