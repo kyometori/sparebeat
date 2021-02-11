@@ -47,6 +47,13 @@ const toTable = arr => {
   return text;
 }
 
+const unlock = () => {
+  const maps = document.getElementsByClassName("in");
+  for(const map of maps) {
+    map.style.display = "table-row";
+  }
+}
+
 const songs = {
   Easy : [
 
@@ -102,12 +109,12 @@ const songs = {
   ]
 }
 
-$(document).ready(() => {
+$(document).ready(async () => {
   const { Easy, Medium, Hard, Boss } = songs;
-  $(".easy").next().html(toTable(Easy));
-  $(".medium").next().html(toTable(Medium));
-  $(".hard").next().html(toTable(Hard));
-  $(".boss").next().html(toTable(Boss));
+  await $(".easy").next().html(await toTable(Easy));
+  await $(".medium").next().html(await toTable(Medium));
+  await $(".hard").next().html(await toTable(Hard));
+  await $(".boss").next().html(await toTable(Boss));
 
   const mp = $(".main").html();
   const about = $(".about").html();
