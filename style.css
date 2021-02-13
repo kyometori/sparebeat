@@ -117,6 +117,9 @@ th{
 td{
   height: 30px;
 }
+td a{
+  display: block;
+}
 td:nth-child(1){
   background-color: #63F2DA;
 }
