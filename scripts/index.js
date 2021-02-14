@@ -71,6 +71,11 @@ const songs = {
       normal: " -",
       hard: "14"
     }),
+    new song("穢れなき薔薇十字", "", {
+      easy: " -",
+      normal: " -",
+      hard: "14"
+    })
     new song("TEmPTaTiON", "かねこちはる", {
       easy: " -",
       normal: " -",
