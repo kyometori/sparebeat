@@ -71,7 +71,7 @@ const songs = {
       normal: " -",
       hard: "14"
     }),
-    new song("穢れなき薔薇十字", "", {
+    new song("穢れなき薔薇十字", "Ariabl'eyeS", {
       easy: " -",
       normal: " -",
       hard: "14"
