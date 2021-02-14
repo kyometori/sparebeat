@@ -11,7 +11,7 @@
 	"level": {
 		"easy": "9+",
 		"normal": "-",
-		"hard": "15+"
+		"hard": 15
 	},
 	"map": {
 		"easy": [

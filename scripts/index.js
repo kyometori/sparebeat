@@ -60,38 +60,38 @@ const songs = {
   ],
 
   Medium : [
-    new song("TEmPTaTiON", "かねこちはる", {
-      easy: " -",
-      normal: " -",
-      hard: "13+"
-    }),
     new song("失礼しますが、RIP♡  (Ðáren Remix)", "Ðáren", {
       easy: " -",
       normal: " -",
       hard: " 14"
+    }),
+    new song("六兆年と一夜物語", "kemu", {
+      easy: " -",
+      normal: " -",
+      hard: "14"
+    }),
+    new song("TEmPTaTiON", "かねこちはる", {
+      easy: " -",
+      normal: " -",
+      hard: "14+"
     }),
     new song("MARENOL", "LeaF", {
       easy: " -",
       normal: " -",
       hard: "14+"
     }),
-    new song("QZKago Requiem", "t+pazolite", {
-      easy: " -",
+    new song("封焔の135秒", "大国奏音", {
+      easy: "9+",
       normal: " -",
       hard: "15"
     })
   ],
 
   Hard : [
-    new song("封焔の135秒", "大国奏音", {
-      easy: "9+",
-      normal: " -",
-      hard: "15+"
-    }),
-    new song("六兆年と一夜物語", "kemu", {
+    new song("QZKago Requiem", "t+pazolite", {
       easy: " -",
       normal: " -",
-      hard: "16"
+      hard: "15+"
     }),
     new song("Glorious Crown", "xi", {
       easy: " -",
