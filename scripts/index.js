@@ -75,7 +75,7 @@ const songs = {
       easy: " -",
       normal: " -",
       hard: "14"
-    })
+    }),
     new song("TEmPTaTiON", "かねこちはる", {
       easy: " -",
       normal: " -",
