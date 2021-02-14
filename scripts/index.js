@@ -52,6 +52,7 @@ const unlock = () => {
   for(const map of maps) {
     map.style.display = "table-row";
   }
+  return "You successfully unlock all hidden maps! Try it now!";
 }
 
 const songs = {
