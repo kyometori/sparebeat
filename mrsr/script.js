@@ -95,9 +95,6 @@ $(document).ready(async () => {
   $("#ab").click(function() {
     $(".main").html(about);
   });
-  $("#cl").click(function() {
-    $(".main").html(cl);
-  });
   $("#title").dblclick(function() {
     $(".nav").animate({height: 'toggle', opacity: 'toggle'});
   });
