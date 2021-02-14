@@ -49,6 +49,12 @@ h1{
   width: 100%;
   text-align: center;
 }
+.nav ul a#fd li{
+  background-color: #CC59D0;
+}
+.nav ul a#fd li:hover{
+  background-color: #C094C1;
+}
 .nav ul{
   margin: 0px auto;
   padding-top: 15px;
