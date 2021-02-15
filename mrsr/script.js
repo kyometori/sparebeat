@@ -55,7 +55,7 @@ const unlock = () => {
 }
 
 const songs = [
-  new song("You can kiss me and hurt me (Remix)", "Xin Xu" {
+  new song("You can kiss me and hurt me (Remix)", "Xin Xu", {
     easy: " -",
     normal: " -",
     hard: "13",
