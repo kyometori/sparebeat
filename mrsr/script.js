@@ -55,7 +55,7 @@ const unlock = () => {
 }
 
 const songs = [
-  new song("Arty Party", "Tsukasa(Arte Refact)", {
+  new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14+",
     hard: "14+"
