@@ -55,6 +55,11 @@ const unlock = () => {
 }
 
 const songs = [
+  new song("You can kiss me and hurt me (Remix)", "Xin Xu" {
+    easy: " -",
+    normal: " -",
+    hard: "13",
+  }),
   new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14+",
