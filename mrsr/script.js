@@ -63,7 +63,7 @@ const songs = [
   new song("黑人抬棺材", "黑人", {
     easy: " -",
     normal: " -",
-    hard: " -"
+    hard: " 13"
   }),
   new song("Arty Party", "yaseta", {
     easy: " -",
