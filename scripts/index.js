@@ -61,17 +61,17 @@ const songs = {
   ],
 
   Medium : [
+    new song("穢れなき薔薇十字", "Ariabl'eyeS", {
+      easy: " -",
+      normal: " -",
+      hard: "13+"
+    }),
     new song("失礼しますが、RIP♡  (Ðáren Remix)", "Ðáren", {
       easy: " -",
       normal: " -",
       hard: " 14"
     }),
     new song("六兆年と一夜物語", "kemu", {
-      easy: " -",
-      normal: " -",
-      hard: "14"
-    }),
-    new song("穢れなき薔薇十字", "Ariabl'eyeS", {
       easy: " -",
       normal: " -",
       hard: "14"
