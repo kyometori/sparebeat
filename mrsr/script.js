@@ -60,6 +60,11 @@ const songs = [
     normal: " -",
     hard: "13",
   }),
+  new song("黑人抬棺材", "黑人", {
+    easy: " -",
+    normal: " -",
+    hard: " -"
+  }),
   new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14+",
