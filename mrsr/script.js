@@ -65,6 +65,11 @@ const songs = [
     normal: " -",
     hard: " 13"
   }),
+  new song("渦狀銀河のシンフォニエッタ", "山本真央樹", {
+    easy: " -",
+    normal: " -",
+    hard: "14"
+  }),
   new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14+",
