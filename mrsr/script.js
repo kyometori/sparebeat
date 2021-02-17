@@ -84,7 +84,12 @@ const songs = [
     easy: " -",
     normal: " -",
     hard: "17"
-  })
+  }),
+  new song("渦状連打のシンフォニエッタ", "山本真央樹", {
+    easy: " -",
+    normal: " -",
+    hard: "F"
+  }, true)
 ];
 
 $(document).ready(async () => {
