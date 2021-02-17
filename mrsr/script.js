@@ -79,6 +79,11 @@ const songs = [
     easy: " -",
     normal: " -",
     hard: "16"
+  }),
+  new song("Calamity Fortune", "LeaF", {
+    easy: " -",
+    normal: " -",
+    hard: "17"
   })
 ];
 
