@@ -72,18 +72,6 @@ a:active{
 .nav ul a li{
   color: black;
 }
-.easy{
-  color: #5ACE28;
-}
-.medium{
-  color: #E6C800;
-}
-.hard{
-  color: #F23737;
-}
-.boss{
-  color: #800080;
-}
 .main h1{
   padding-top: 18px;
   padding-bottom: 10px;

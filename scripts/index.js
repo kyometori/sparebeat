@@ -55,72 +55,57 @@ const unlock = () => {
   return "You successfully unlock all hidden maps! Try it now!";
 }
 
-const songs = {
-  Easy : [
 
-  ],
-
-  Medium : [
-    new song("穢れなき薔薇十字", "Ariabl'eyeS", {
-      easy: " -",
-      normal: " -",
-      hard: "13+"
-    }),
-    new song("失礼しますが、RIP♡  (Ðáren Remix)", "Ðáren", {
-      easy: " -",
-      normal: " -",
-      hard: " 14"
-    }),
-    new song("六兆年と一夜物語", "kemu", {
-      easy: " -",
-      normal: " -",
-      hard: "14"
-    }),
-    new song("TEmPTaTiON", "かねこちはる", {
-      easy: " -",
-      normal: " -",
-      hard: "14+"
-    }),
-    new song("MARENOL", "LeaF", {
-      easy: " -",
-      normal: " -",
-      hard: "14+"
-    }),
-    new song("封焔の135秒", "大国奏音", {
-      easy: "9+",
-      normal: " -",
-      hard: "15"
-    })
-  ],
-
-  Hard : [
-    new song("QZKago Requiem", "t+pazolite", {
-      easy: " -",
-      normal: " -",
-      hard: "15+"
-    }),
-    new song("Glorious Crown", "xi", {
-      easy: " -",
-      normal: " -",
-      hard: "17+"
-    })
-  ],
-
-  Boss : [
-    new song("【裏】Glorious Crown", "xi", {
-      easy: " -",
-      normal: " -",
-      hard: "-1"
-    }, true)
-  ]
-}
+const songs =  [
+  new song("穢れなき薔薇十字", "Ariabl'eyeS", {
+    easy: " -",
+    normal: " -",
+    hard: "13+"
+  }),
+  new song("失礼しますが、RIP♡  (Ðáren Remix)", "Ðáren", {
+    easy: " -",
+    normal: " -",
+    hard: " 14"
+  }),
+  new song("六兆年と一夜物語", "kemu", {
+    easy: " -",
+    normal: " -",
+    hard: "14"
+  }),
+  new song("TEmPTaTiON", "かねこちはる", {
+    easy: " -",
+    normal: " -",
+    hard: "14+"
+  }),
+  new song("MARENOL", "LeaF", {
+    easy: " -",
+    normal: " -",
+    hard: "14+"
+  }),
+  new song("封焔の135秒", "大国奏音", {
+    easy: "9+",
+    normal: " -",
+    hard: "15"
+  }),
+  new song("QZKago Requiem", "t+pazolite", {
+    easy: " -",
+    normal: " -",
+    hard: "15+"
+  }),
+  new song("Glorious Crown", "xi", {
+    easy: " -",
+    normal: " -",
+    hard: "17+"
+  }),
+  new song("【裏】Glorious Crown", "xi", {
+    easy: " -",
+    normal: " -",
+    hard: "-1"
+  }, true)
+];
 
 $(document).ready(async () => {
-  const { Easy, Medium, Hard, Boss } = songs;
-  await $(".easy").next().html(await toTable(Easy));
-  await $(".medium").next().html(await toTable(Medium));
-  await $(".hard").next().html(await toTable(Hard));
-  await $(".boss").next().html(await toTable(Boss));
+  await $(".list").next().html(await toTable(songs));
 
   const mp = $(".main").html();
   const about = $(".about").html();
