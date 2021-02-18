@@ -2,16 +2,16 @@
 	"title": "Arty Party",
 	"artist": "yaseta",
 	"bgColor": [
-		"#ae855a",
-		"#815b2b"
+		"#2bc66a",
+		"#ed8b11"
 	],
 	"beats": 4,
 	"bpm": 180,
 	"startTime": 0,
 	"level": {
-		"easy": "-",
-		"normal": "14+",
-		"hard": "14+"
+		"easy": "",
+		"normal": 14,
+		"hard": 14
 	},
 	"map": {
 		"easy": [

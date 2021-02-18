@@ -70,6 +70,11 @@ const songs = [
     normal: " -",
     hard: "14"
   }),
+  new song("≠彡\"了", "水野健治", {
+    easy: " -",
+    normal: " -",
+    hard: "14"
+  }),
   new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14+",
