@@ -32,7 +32,7 @@ class song {
   }
   toString() {
     if(this.in) return `<tr class="in"><td><a href="${this.title}">${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
-    return `<tr><td><a href="${this.title}">${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
+    return `<tr><td><a href='${this.title}'>${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
   }
 }
 
