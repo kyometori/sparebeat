@@ -80,6 +80,11 @@ const songs = [
     normal: "14",
     hard: "14"
   }),
+  new song("Tokyo Hot", "unknown", {
+    easy: " -",
+    normal: " -",
+    hard: "15"
+  }),
   new song("Fragrance", "Tsukasa(Arte Refact)", {
     easy: " -",
     normal: " -",
