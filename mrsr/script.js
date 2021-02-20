@@ -75,15 +75,15 @@ const songs = [
     normal: " -",
     hard: "14"
   }),
+  new song("Tokyo Hot", "unknown", {
+    easy: " -",
+    normal: " -",
+    hard: "14"
+  }),
   new song("Arty Party", "yaseta", {
     easy: " -",
     normal: "14",
     hard: "14"
-  }),
-  new song("Tokyo Hot", "unknown", {
-    easy: " -",
-    normal: " -",
-    hard: "15"
   }),
   new song("Fragrance", "Tsukasa(Arte Refact)", {
     easy: " -",
