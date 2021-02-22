@@ -106,7 +106,7 @@ const songs =  [
     easy: " -",
     normal: " -",
     hard: "17+"
-  })
+  }),
   new song("【裏】Glorious Crown", "xi", {
     easy: " -",
     normal: " -",
