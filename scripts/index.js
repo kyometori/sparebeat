@@ -102,6 +102,11 @@ const songs =  [
     normal: " -",
     hard: "17+"
   }),
+  new song("Senpai, notice me!", "Camellia ft. Nanahira", {
+    easy: " -",
+    normal: " -",
+    hard: "17+"
+  })
   new song("【裏】Glorious Crown", "xi", {
     easy: " -",
     normal: " -",
