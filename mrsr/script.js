@@ -1,4 +1,4 @@
-  const copy = (str) => {
+const copy = (str) => {
   const el = document.createElement('textarea');
   el.value = str;
   document.body.appendChild(el);
@@ -20,87 +20,6 @@ const reset = (str) => {
     tooltip.style.cssText = "background-color: #555";
   }
 }
-
-class song {
-  constructor(title, artist, { easy, normal, hard }, isin = false) {
-    this.title = title;
-    this.artist = artist;
-    this.easy = easy;
-    this.normal = normal;
-    this.hard = hard;
-    this.in = isin;
-  }
-  toString() {
-    if(this.in) return `<tr class="in"><td><a href="${this.title}">${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
-    return `<tr><td><a href='${this.title}'>${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
-  }
-}
-
-const toTable = arr => {
-  let text;
-  text = "<thead><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></thead><tbody>";
-  arr.forEach(so => {
-    text += so.toString();
-  });
-  text += "</tbody>";
-  return text;
-}
-
-const unlock = () => {
-  const maps = document.getElementsByClassName("in");
-  for(const map of maps) {
-    map.style.display = "table-row";
-  }
-  return "You successfully unlock all hidden maps! Try it now!";
-}
-
-const songs = [
-  new song("You can kiss me and hurt me (Remix)", "Xin Xu", {
-    easy: " -",
-    normal: " -",
-    hard: "13",
-  }),
-  new song("黑人抬棺材", "黑人", {
-    easy: " -",
-    normal: " -",
-    hard: " 13"
-  }),
-  new song("渦狀銀河のシンフォニエッタ", "山本真央樹", {
-    easy: " -",
-    normal: " -",
-    hard: "14"
-  }),
-  new song(`≠彡"了`, "水野健治", {
-    easy: " -",
-    normal: " -",
-    hard: "14"
-  }),
-  new song("Tokyo Hot", "unknown", {
-    easy: " -",
-    normal: " -",
-    hard: "14"
-  }),
-  new song("Arty Party", "yaseta", {
-    easy: " -",
-    normal: "14",
-    hard: "14"
-  }),
-  new song("Fragrance", "Tsukasa(Arte Refact)", {
-    easy: " -",
-    normal: " -",
-    hard: "16"
-  }),
-  new song("Calamity Fortune", "LeaF", {
-    easy: " -",
-    normal: " -",
-    hard: "17"
-  }),
-  new song("渦状連打のシンフォニエッタ", "山本真央樹", {
-    easy: " -",
-    normal: " -",
-    hard: "F"
-  }, true)
-];
 
 $(document).ready(async () => {
   await $(".maps").next().html(await toTable(songs));

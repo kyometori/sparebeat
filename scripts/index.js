@@ -22,31 +22,6 @@ const reset = (str) => {
   }
 }
 
-class song {
-  constructor(title, artist, { easy, normal, hard }, isin = false) {
-    this.title = title;
-    this.artist = artist;
-    this.easy = easy;
-    this.normal = normal;
-    this.hard = hard;
-    this.in = isin;
-  }
-  toString() {
-    if(this.in) return `<tr class="in"><td><a href="${this.title}">${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
-    return `<tr><td><a href="${this.title}">${this.title}</a></td><td>${this.artist}</td><td>${this.easy}</td><td>${this.normal}</td><td>${this.hard}</td></tr>`;
-  }
-}
-
-const toTable = arr => {
-  let text;
-  text = "<thead><th>Title</th><th>Artist</th><th>Easy</th><th>Normal</th><th>Hard</th></thead><tbody>";
-  arr.forEach(so => {
-    text += so.toString();
-  });
-  text += "</tbody>";
-  return text;
-}
-
 const unlock = () => {
   const maps = document.getElementsByClassName("in");
   for(const map of maps) {
@@ -55,69 +30,8 @@ const unlock = () => {
   return "You successfully unlock all hidden maps! Try it now!";
 }
 
-
-const songs =  [
-  new song("穢れなき薔薇十字", "Ariabl'eyeS", {
-    easy: " -",
-    normal: " -",
-    hard: "13+"
-  }),
-  new song("失礼しますが、RIP♡  (Ðáren Remix)", "Ðáren", {
-    easy: " -",
-    normal: " -",
-    hard: " 14"
-  }),
-  new song("六兆年と一夜物語", "kemu", {
-    easy: " -",
-    normal: " -",
-    hard: "14"
-  }),
-  new song("カラフル", "H△G", {
-    easy: " -",
-    normal: " -",
-    hard: "14"
-  }),
-  new song("TEmPTaTiON", "かねこちはる", {
-    easy: " -",
-    normal: " -",
-    hard: "14+"
-  }),
-  new song("MARENOL", "LeaF", {
-    easy: " -",
-    normal: " -",
-    hard: "14+"
-  }),
-  new song("封焔の135秒", "大国奏音", {
-    easy: "9+",
-    normal: " -",
-    hard: "15"
-  }),
-  new song("QZKago Requiem", "t+pazolite", {
-    easy: " -",
-    normal: " -",
-    hard: "15+"
-  }),
-  new song("Glorious Crown", "xi", {
-    easy: " -",
-    normal: " -",
-    hard: "17+"
-  }),
-  new song("Senpai, notice me!", "Camellia ft. Nanahira", {
-    easy: " -",
-    normal: " -",
-    hard: "17+"
-  }),
-  new song("【裏】Glorious Crown", "xi", {
-    easy: " -",
-    normal: " -",
-    hard: "-1"
-  }, true)
-];
-
 $(document).ready(async () => {
-  await $(".list").next().html(await toTable(songs));
-
-  const mp = $(".main").html();
+const mp = $(".main").html();
   const about = $(".about").html();
   const cl = $(".cl").html();
   $("#title").hide(0);

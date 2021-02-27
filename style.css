@@ -105,51 +105,51 @@ table{
   margin-right: auto;
   width: 80%;
 }
-th{
+.list th{
   background: #DCDCDC;
 }
-td{
+.list td{
   height: 30px;
 }
-td a{
+.list td a{
   display: block;
 }
-td:nth-child(1){
+.list td:nth-child(1){
   background-color: #63F2DA;
 }
-td:nth-child(1):hover{
+.list td:nth-child(1):hover{
   background-color: #BFFFF5;
   cursor: pointer;
 }
-td:nth-child(2){
+.list td:nth-child(2){
   background-color: #EE82EE;
 }
-td:nth-child(2):hover{
+.list td:nth-child(2):hover{
   background-color: #EFABEF;
   cursor: pointer;
 }
-td:nth-child(3){
+.list td:nth-child(3){
   background-color: #7FFF00;
 }
-td:nth-child(4){
+.list td:nth-child(4){
   background-color: #FFD700;
 }
-td:nth-child(5){
+.list td:nth-child(5){
   background-color: #DC143C;
 }
-th:nth-child(1){
+.list th:nth-child(1){
   width: 35%;
 }
-th:nth-child(2){
+.list th:nth-child(2){
   width: 26%;
 }
-th:nth-child(3){
+.list th:nth-child(3){
   width: 13%;
 }
-th:nth-child(4){
+.list th:nth-child(4){
   width: 13%;
 }
-th:nth-child(5){
+.list th:nth-child(5){
   width: 13%;
 }
 
