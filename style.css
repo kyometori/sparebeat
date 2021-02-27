@@ -98,7 +98,12 @@ a:active{
   color: #32CD32;
 }
 
-
+hr{
+  margin-top:15px;
+  margin-bottom:25px;
+  border:1px solid #2775B9;
+  width: 85%;
+}
 table{
   border:1px solid #000;
   margin-left: auto;
