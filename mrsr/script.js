@@ -22,8 +22,6 @@ const reset = (str) => {
 }
 
 $(document).ready(async () => {
-  await $(".maps").next().html(await toTable(songs));
-
   const mp = $(".main").html();
   const about = $(".about").html();
   $("#title").hide(0);
