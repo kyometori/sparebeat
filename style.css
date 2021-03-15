@@ -143,10 +143,10 @@ th{
   background-color: #DC143C;
 }
 .list th:nth-child(1){
-  width: 35%;
+  width: 33%;
 }
 .list th:nth-child(2){
-  width: 26%;
+  width: 28%;
 }
 .list th:nth-child(3){
   width: 13%;
