@@ -1,13 +1,17 @@
 {
 	"title": "最悪な日でもあなたが好き。",
 	"artist": "HoneyWorks feat. Hanon×Kotoha",
+	"bgColor": [
+		"#d2dd4b",
+		"#16541d"
+	],
 	"beats": 4,
 	"bpm": 186,
 	"startTime": 1300,
 	"level": {
 		"easy": "-",
 		"normal": "-",
-		"hard": "14+"
+		"hard": "14"
 	},
 	"map": {
 		"easy": [
