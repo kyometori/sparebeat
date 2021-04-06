@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rating Calc. - AC Sparebeat Room</title>
+  <style>
+    input[type="number"] {
+      width: 75px;
+    }
+  </style>
+  <script>
+    const rating = () => {
+      const MAXDIFF = 20;
+      const PASS = 650000;
+      const MAXSCORE = 1000000;
+
+      const score = parseInt(document.getElementById("score").value, 10);
+      const just = parseInt(document.getElementById("just").value, 10);
+      const rush = parseInt(document.getElementById("rush").value, 10);
+      const cool = parseInt(document.getElementById("cool").value, 10);
+      const miss = parseInt(document.getElementById("miss").value, 10);
+      let diff = parseInt(document.getElementById("diff").value, 10);
+
+      if(document.getElementById("plus").checked) diff += 0.5;
+
+      if(diff > MAXDIFF) return alert(`Difficulty cannot be over than ${MAXDIFF}!`);
+
+      const MAXCOMBO = just + rush + cool + miss;
+
+      let r = 1000 * just / MAXCOMBO;
+
+      r *= diff / MAXDIFF;
+      r *= score / MAXSCORE;
+
+      if(score < PASS)
+        r *= 0.6;
+
+      if(just == MAXCOMBO)
+        r *= 1.5;
+      else if(miss == 0)
+        r *= 1.05;
+
+      r = ~~(r) / 100;
+
+      document.getElementById("show").innerHTML = `Your rating on this song: ${r}`;
+    }
+  </script>
+</head>
+<body>
+  <form action="javascript:rating()">
+    <code>
+      Score:<input type="number" id="score" /><br />
+      Just: <input type="number" id="just" /><br />
+      Rush: <input type="number" id="rush" /><br />
+      Cool: <input type="number" id="cool" /><br />
+      Miss: <input type="number" id="miss" /><br />
+      Diff: <input type="number" id="diff" /> <label><input type="checkbox" id="plus" />+</label><br /><br />
+    </code>
+    <input type="submit" value="Calculate" />
+  </form>
+  <p id="show"></p>
+</body>
+</html>
