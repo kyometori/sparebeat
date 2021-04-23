@@ -28,8 +28,9 @@
 
       let r = 1000 * just / MAXCOMBO;
 
-      r *= diff / MAXDIFF;
       r *= score / MAXSCORE;
+      r *= diff / MAXDIFF;
+
 
       if(score < PASS)
         r *= 0.6;
