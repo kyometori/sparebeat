@@ -5,19 +5,19 @@
 封焰 EZ9+ 70萬（AC Sparebeat Room）
 
 初二段
-黑人抬棺材 Hard13 73萬（MeowRim Sparebeat Room）
+黑人抬棺材 Hard12+ 73萬（MeowRim Sparebeat Room）
 
 初三段
 薔薇十字 Hard13 75萬（AC Sparebeat Room）
 
 初四段
-Arty Party Normal14 77萬（MeowRim Sparebeat Room）
+Arty Party Normal13+ 77萬（MeowRim Sparebeat Room）
 
 初五段
-六兆 Hard14 80w（AC Sparebeat Room）
+六兆 Hard14+ 80w（AC Sparebeat Room）
 
 初六段
-Remix Hard13 90w（MeowRim Sparebeat Room）
+Remix Hard11 90w（MeowRim Sparebeat Room）
 
 初七段
 Colorful Hard14 82w（AC Sparebeat Room）
@@ -26,12 +26,12 @@ Colorful Hard14 82w（AC Sparebeat Room）
 銀河 Hard14 85w（MeowRim Sparebeat Room）
 
 初九段
-QZ Hard15+ 88w（AC Sparebeat Room）
+QZ Hard16 88w（AC Sparebeat Room）
 
 初十段
 CF Hard17 90w（MeowRim Sparebeat Room）
 
 初神
-Glorious Crown Hard17+ 90w（AC Sparebeat Room）
+Glorious Crown Hard18 90w（AC Sparebeat Room）
 
 初始啟真
