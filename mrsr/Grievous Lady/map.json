@@ -9,8 +9,8 @@
 	"bpm": 210,
 	"startTime": 500,
 	"level": {
-		"easy": "",
-		"normal": "",
+		"easy": "-",
+		"normal": "-",
 		"hard": 19
 	},
 	"map": {
